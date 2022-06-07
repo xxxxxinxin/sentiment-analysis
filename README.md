@@ -19,7 +19,7 @@ The first plot shows the polarity of each article.
 
 The second plot shows the number of each class: positive, neutral and negative. If the polarity of the article lies between [-0.1,0.1], the article will be classified as a neutral article; if it is larger than 0.1, then it will be classified as a positive article; otherwise, it will be classified as a negative article.
 
-![plot2](https://user-images.githubusercontent.com/46780987/172499153-6685124c-efa0-42df-84a3-e58de342f85b.png)
+![plot2](https://user-images.githubusercontent.com/46780987/172501819-29d8eeed-9b77-47e0-a953-aa67e6a92af6.png)
 
 The plots indicate that most of the articles are neutral which is consistent with our perception that news should be neutral.
 
