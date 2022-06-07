@@ -119,7 +119,7 @@ if __name__ == '__main__':
             neu += 1
 
     fig = go.Figure(
-        data=[go.Bar(y=[neg, neu, pos], x=["neg", "neu", "pos"])],
+        data=[go.Bar(y=[neg, neu, pos], x=["Negative", "Neutral", "Positive"])],
         layout_title_text="Articles per category"
     )
     fig.show()
