@@ -5,7 +5,7 @@ Using BeautifulSoup to scrape the news information from the given website, and t
 
 Other details are showed in the following parts.
 
-### Format of JSON File ###
+### JSON File Fotmat ###
 ![Screen Shot 2022-06-07 at 3 41 54 PM](https://user-images.githubusercontent.com/46780987/172495210-02b12adc-9834-4841-85f5-9072ec20b09f.png)
 
 ### Sentiment Analysis Approach ###
