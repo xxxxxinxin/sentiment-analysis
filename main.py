@@ -111,16 +111,16 @@ if __name__ == '__main__':
     neg = 0
     neu = 0
     for p in polarity_list:
-        if p > 0.1:
+        if p > 0.05:
             pos += 1
-        elif p < -0.1:
+        elif p < -0.05:
             neg += 1
         else:
             neu += 1
 
     fig = go.Figure(
         data=[go.Bar(y=[neg, neu, pos], x=["Negative", "Neutral", "Positive"])],
-        layout_title_text="Articles per category"
+        layout_title_text="Articles per category(Threshold at 0.05)"
     )
     fig.show()
 
