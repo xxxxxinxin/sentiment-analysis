@@ -17,9 +17,9 @@ Textblob sentiment analyzer can return two properties for a given input sentence
 The first plot shows the polarity of each article.
 ![plot1](https://user-images.githubusercontent.com/46780987/172498692-fb68aeb5-067f-4c04-8100-fa0a44ffbc22.png)
 
-The second plot shows the number of each class: positive, neutral and negative. If the polarity of the article lies between [-0.1,0.1], the article will be classified as a neutral article; if it is larger than 0.1, then it will be classified as a positive article; otherwise, it will be classified as a negative article.
+The second plot shows the number of each class: positive, neutral and negative. If the polarity of the article lies between [-0.05,0.05], the article will be classified as a neutral article; if it is larger than 0.05, then it will be classified as a positive article; otherwise, it will be classified as a negative article.
 
-![plot2](https://user-images.githubusercontent.com/46780987/172501819-29d8eeed-9b77-47e0-a953-aa67e6a92af6.png)
+![plot2](https://user-images.githubusercontent.com/46780987/172523595-7b3a1ef6-8d55-4944-8db5-00b5d57aa01c.png)
 
 The plots indicate that most of the articles are neutral which is consistent with our perception that news should be neutral.
 
